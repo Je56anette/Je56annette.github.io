@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&family=Roboto:wght@300&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(87, 186, 243);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul li {
+    font-size: 150%;
+    color: black;
+    margin: 30px;
+}
+
+.encabezado img {
+    width: 90px;
+    margin: 10%;
+}
+img {
+    width: 90px;
+    margin: 65px;
+}
+
+.titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 400%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(14, 14, 122);
+    margin: 2%;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.presentacion {
+    width: 100%;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion p {
+    font-family: "Truculenta", sans-serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    text-align: center;
+}
+.carousel img {
+    width: 100px;
+    height: 500px;
+    margin: none;
+    text-align: center;
+    padding-right: 10%;
+    text-align: center;
+}
+.video-container {
+    position:relative;
+    padding-bottom: 50%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 800px;
+    height: 400px;
+}
+.main p {
+    margin: 200px;
+    padding: 100px;
+}
+.mapa {
+    position:relative;
+    padding-bottom: 50%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+.mapa iframe{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 800px;
+    height: 400px;
+
+}
